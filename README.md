@@ -15,7 +15,10 @@ A Node.js package to **validate phone numbers** and **verify network provider** 
 You can install the package via npm:
 
 ```bash
-npm install verify-phone-network-provider
+npm i phone-number-network-provider
+```
+```bash
+yarn add phone-number-network-provider
 ```
 
 ## Usage
@@ -27,14 +30,14 @@ You can use the package in both **JavaScript** and **TypeScript** applications.
 #### **CommonJS (Node.js)**
 
 ```javascript
-const { verifyPhoneNumberNetworkSync, verifyPhoneNumberNetworkAsync } = require('verify-phone-network-provider');
+const { verifyNetworkProviderSync, verifyNetworkProviderAsync } = require('verify-phone-network-provider');
 
 // Synchronous validation
-const resultSync = verifyPhoneNumberNetworkSync('08031234567');
+const resultSync = verifyNetworkProviderSync('08031234567');
 console.log(resultSync);
 
 // Asynchronous validation
-verifyPhoneNumberNetworkAsync('08031234567')
+verifyNetworkProviderAsync('08031234567')
   .then(result => console.log(result))
   .catch(error => console.log(error));
 ```
@@ -42,14 +45,14 @@ verifyPhoneNumberNetworkAsync('08031234567')
 #### **ES Modules (ESM)**
 
 ```javascript
-import { verifyPhoneNumberNetworkSync, verifyPhoneNumberNetworkAsync } from 'verify-phone-network-provider';
+import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'verify-phone-network-provider';
 
 // Synchronous validation
-const resultSync = verifyPhoneNumberNetworkSync('08031234567');
+const resultSync = verifyNetworkProviderSync('08031234567');
 console.log(resultSync);
 
 // Asynchronous validation
-verifyPhoneNumberNetworkAsync('08031234567')
+verifyNetworkProviderAsync('08031234567')
   .then(result => console.log(result))
   .catch(error => console.log(error));
 ```
@@ -60,7 +63,7 @@ verifyPhoneNumberNetworkAsync('08031234567')
   This method checks if the phone number is valid, and whether it matches a known network provider (based on prefixes).
 
   ```javascript
-  const result = verifyPhoneNumberNetworkSync('08031234567');
+  const result = verifyNetworkProviderSync('08031234567');
   console.log(result);
   ```
 
@@ -88,7 +91,7 @@ verifyPhoneNumberNetworkAsync('08031234567')
   This method works similarly to the synchronous method, but returns a **Promise** for asynchronous handling.
 
   ```javascript
-  verifyPhoneNumberNetworkAsync('08031234567')
+  verifyNetworkProviderAsync('08031234567')
     .then(result => console.log(result))
     .catch(error => console.log(error));
   ```
@@ -121,9 +124,9 @@ This package supports validation for several Nigerian network providers. It chec
 This package comes with TypeScript declaration files, so if you're using TypeScript, you can get full type safety and autocompletion.
 
 ```typescript
-import { verifyPhoneNumberNetworkSync, verifyPhoneNumberNetworkAsync } from 'verify-phone-network-provider';
+import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'verify-phone-network-provider';
 
-const result = verifyPhoneNumberNetworkSync('08031234567');
+const result = verifyNetworkProviderSync('08031234567');
 console.log(result);
 ```
 

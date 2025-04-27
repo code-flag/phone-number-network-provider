@@ -30,7 +30,7 @@ You can use the package in both **JavaScript** and **TypeScript** applications.
 #### **CommonJS (Node.js)**
 
 ```javascript
-const { verifyNetworkProviderSync, verifyNetworkProviderAsync } = require('verify-phone-network-provider');
+const { verifyNetworkProviderSync, verifyNetworkProviderAsync } = require('phone-number-network-provider');
 
 // Synchronous validation
 const resultSync = verifyNetworkProviderSync('08031234567');
@@ -45,7 +45,7 @@ verifyNetworkProviderAsync('08031234567')
 #### **ES Modules (ESM)**
 
 ```javascript
-import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'verify-phone-network-provider';
+import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'phone-number-network-provider';
 
 // Synchronous validation
 const resultSync = verifyNetworkProviderSync('08031234567');
@@ -124,7 +124,7 @@ This package supports validation for several Nigerian network providers. It chec
 This package comes with TypeScript declaration files, so if you're using TypeScript, you can get full type safety and autocompletion.
 
 ```typescript
-import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'verify-phone-network-provider';
+import { verifyNetworkProviderSync, verifyNetworkProviderAsync } from 'phone-number-network-provider';
 
 const result = verifyNetworkProviderSync('08031234567');
 console.log(result);

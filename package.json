@@ -1,0 +1,30 @@
+
+{
+  "name": "verify-phone-network-provider",
+  "version": "1.0.0",
+  "description": "A lightweight utility to verify Nigerian phone number network providers by prefix. Supports both CommonJS (require) and ESM (import).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "phone",
+    "verify",
+    "nigeria",
+    "network",
+    "telco",
+    "validation",
+    "phone number",
+    "nigerian phone number",
+    "network provider",
+    "validate"
+  ],
+  "author": "Francis Olawumi Awe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/verify-phone-number-network.git"
+  }
+}

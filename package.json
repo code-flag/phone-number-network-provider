@@ -1,6 +1,6 @@
 {
   "name": "phone-number-network-provider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight utility to verify Nigerian phone number network providers by prefix. Supports both CommonJS (require) and ESM (import).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

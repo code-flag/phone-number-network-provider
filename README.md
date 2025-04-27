@@ -2,9 +2,6 @@
 
 ### **Nigerian Phone Number Network Provider Validator**
 
-```markdown
-# verify-phone-network-provider
-
 A Node.js package to **validate phone numbers** and **verify network provider** for Nigerian phone numbers. It supports both **sync** and **async** validation, ensuring that phone numbers are valid and belong to a recognized network provider.
 
 ## Features
@@ -156,15 +153,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 MIT License. See the [LICENSE](LICENSE) file for more details.
 ```
-
----
-
-### Key Details Covered in the README:
-- **Installation**: How to install and set up the package.
-- **Usage**: Provides examples for both `require` (CommonJS) and `import` (ES Modules).
-- **Functionality**: Describes both synchronous and asynchronous validation methods.
-- **Project Structure**: Explains the folder structure of the code.
-- **TypeScript**: Information on TypeScript support and declaration files.
-- **Contributing**: Guidelines for contributing to the package.
-
-This README is clear and explains all the major aspects of using the package! Let me know if you want to add or change anything. 🚀

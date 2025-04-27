@@ -1,11 +1,11 @@
-
 {
-  "name": "verify-phone-network-provider",
+  "name": "phone-number-network-provider",
   "version": "1.0.0",
   "description": "A lightweight utility to verify Nigerian phone number network providers by prefix. Supports both CommonJS (require) and ESM (import).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "test": "jest",
     "build": "tsc",
     "prepare": "npm run build"
   },
@@ -25,6 +25,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/verify-phone-number-network.git"
+    "url": "https://github.com/code-flag/phone-number-network-provider.git"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.2"
   }
 }
